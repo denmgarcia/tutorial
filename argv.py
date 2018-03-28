@@ -21,10 +21,10 @@ def delete(deleted):
 	areyousure = input("Are you sure you want to delete directory? ")
 	try:
 		
-		if areyousure == 'yes' or 'y':
+		if areyousure == 'yes' or 'y' or 'no':
 			if(os.rmdir(deleted)):
 					print("Deleted directory %s" % deleted)
-		elif areyousure == 'no':
+		else:
 			print("You answered no, therefore I will be exited")
 	except FileNotFoundError:
 			print("File was not found or have been already deleted!")

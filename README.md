@@ -19,6 +19,8 @@ Script uses the power of sys.argv it creates a simple folder using the flag you 
 
 $ python argv.py --create myFolder # myFolder is created
 
+When running in ordinary user it throws an error, otherwise root is working just fine
+and also --delete flag has ability to delete directory in ordinary user mode
 
 
  

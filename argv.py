@@ -23,7 +23,7 @@ def delete(deleted):
 		
 		if areyousure == 'no':
 			print("You answered no, therefore I will be exited")
-		elif areyousure == 'yes' or 'no':
+		elif areyousure == 'yes' or 'Yes':
 			os.rmdir(deleted)
 			print("Deleted directory %s" % deleted)
 	except FileNotFoundError:

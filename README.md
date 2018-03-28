@@ -10,8 +10,15 @@ $ python convert.py --farenheit 32
 
 should echo 0.0 C since it is now converted to celsius 0.0C == 32F
 
-[x] Celsius
-[x] Farenheit
-[ ] Kelvin
+[x] Celsius  
+[x] Farenheit  
+[ ] Kelvin  
+
+------------------------------------------
+Script uses the power of sys.argv it creates a simple folder using the flag you specified
+
+$ python argv.py --create myFolder # myFolder is created
+
+
 
  
